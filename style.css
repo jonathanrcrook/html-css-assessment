@@ -1,0 +1,88 @@
+body {
+  background-image: url(img/main-bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: auto;
+}
+
+
+
+.twitter-icon{
+	text-align: right;
+}
+
+.facebook-icon {
+	text-align: right;
+}
+
+
+.hamburger-icon {
+	display: none;
+	color: white;
+}
+
+.flex-container-one {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 700px) {
+.flex-container-one {
+	display: none;
+
+}
+.hamburger-icon {
+	display: block;
+}
+}
+
+.flex-container-two {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.flex-item-one {
+  text-align: center;
+
+}
+
+.flex-item-two {
+  text-align: center;
+}
+
+.flex-item-three {
+  text-align: center;
+}
+
+.flex-item-four {
+  text-align: center;
+  padding-top: 200px;
+  text-transform: capitalize;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.flex-item-five {
+  text-align: center;
+  padding-bottom: 220px;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: auto;
+  font-weight: bold;
+}
+
+p {
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.arrow {
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
